@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_colour"
+    >
+
+    <EditText
+        android:id="@+id/username_form"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_form"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/username_hint"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/email_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_form"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/passwordVerf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordVerf"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/custom_form"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/termsCheckbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/email_form"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_form"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/border_button"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/continue_btn"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/termsCheckbox"
+        android:layout_width="249dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="52dp"
+        android:buttonTint="@color/white"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/terms_text"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/continueButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/createTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="83dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/create_title"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/username_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoTopLeft"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="343dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whitelogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

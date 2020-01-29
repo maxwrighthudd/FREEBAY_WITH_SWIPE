@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">FREEBAY_Application</string>
+
+    <!--Homepage-->
+    <string name="app_logo_name">FREEBAY</string>
+    <string name="create_account_btn">Create account</string>
+    <string name="have_account_btn">I have an account!</string>
+    <string name="sign_in_text_button">Sign in</string>
+
+    <!--CreateAccount-->
+    <string name="create_title">Create an account</string>
+    <string name="terms_text">By creating an account you agree to our Terms of Service and Privacy Policy</string>
+    <string name="continue_btn">Continue</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">**********</string>
+
+
+    <!--Login-->
+    <string name="login_title">Login</string>
+    <string name="submit_btn">Submit</string>
+
+    <!--Settings-->
+    <string name="update_picture_btn">Update Profile Picture</string>
+    <string name="delete_account_btn">Delete Account</string>
+    <string name="logout_btn">Logout</string>
+
+    <!--Profile-->
+    <string name="profile_products_title">ACTIVE PRODUCTS</string>
+
+    <!--Support-->
+    <string name="support_title">FREEBAY Support</string>
+    <string name="support_subtext">For enquires and support please use the information below</string>
+    <string name="support_address">Queensgate, Huddersfield, HD1 3DH</string>
+    <string name="support_email">Support@freebay.co.uk</string>
+    <string name="support_number">07234567897</string>
+
+    <!--Products-->
+    <string name="products_title">PRODUCTS</string>
+
+    <!--LikedProducts-->
+    <string name="liked_products_title">YOUR LIKED PRODUCTS</string>
+    <string name="view_more">View More</string>
+
+    <!--ContactSeller-->
+    <string name="contact_title">CONTACT DETAILS</string>
+    <string name="contact_report">Report User</string>
+
+    <!--AddProduct-->
+    <string name="add_product_title">ADD A PRODUCT</string>
+    <string name="title">Title</string>
+    <string name="product_condition">Condition</string>
+    <string name="product_desc">Product Description</string>
+    <string name="add_image">Add Image</string>
+
+    <string name="title_hint">Enter product name</string>
+    <string name="condition_hint">Enter condition</string>
+    <string name="desc_hint">Enter description</string>
+
+</resources>
