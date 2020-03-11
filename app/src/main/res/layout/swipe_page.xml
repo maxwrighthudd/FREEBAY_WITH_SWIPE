@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Layout for swipe ideally, must stay as a relative layout-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:id="@+id/relativeLayout"
+    tools:context=".SwipePage"
+    android:background="@drawable/background_colour"
+    >
+
+    <!--Content belongs here-->
+
+    <TextView
+        android:id="@+id/swipeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swipe_title"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:paddingTop="50px"
+        />
+</RelativeLayout>

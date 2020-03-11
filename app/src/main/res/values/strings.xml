@@ -57,4 +57,7 @@
     <string name="condition_hint">Enter condition</string>
     <string name="desc_hint">Enter description</string>
 
+    <!--Swipe-->
+    <string name="swipe_title">BROWSE ITEMS</string>
+
 </resources>
