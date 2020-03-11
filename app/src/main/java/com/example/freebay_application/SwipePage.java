@@ -25,6 +25,13 @@ public class SwipePage extends AppCompatActivity {
                 super.onSwipeRight();
                 Toast.makeText(SwipePage.this, "Liked", Toast.LENGTH_SHORT).show();
             }
+
+            @Override
+            public void onSwipeUp() {
+                super.onSwipeUp();
+                Toast.makeText(SwipePage.this, "Super Like", Toast.LENGTH_SHORT).show();
+            }
+
         });
     }
 }
